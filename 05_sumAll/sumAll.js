@@ -1,9 +1,7 @@
-const sumAll = function(num) {
-    sum = num + num;
+const sumAll = function(...args) {
+    const sum = [1, 2, 3, 4].reduce((partialSum, a) => partialSum + a, 0);
     return sum;
-    console.log(1+4 + " : Sum of, 1 + 4.");
-    console.log(1+2+3+4 + " : Sum of, 1 + 2 + 3 + 4.");
-};
+    }
 
 
 // Do not edit below this line
