@@ -1,7 +1,13 @@
-const leapYears = function() {
-    num = 1984
-    test = num / 4;
-    console.log(test);
+const leapYears = function(leapYear) {
+
+    if (leapYear % 4 === 0 || leapYear % 400 === 0) {
+        return true;
+    } else if (leapYear === 1900) {
+        return false;
+    }
+    
+    else
+        return false;
 
     // pseudocode
     // if (leapYear / 4) (!&& leapYer / 100 !|| leapYear / 400)
