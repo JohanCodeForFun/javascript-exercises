@@ -13,7 +13,7 @@ const people = [
     name: "Jane",
     yearOfBirth: 1912,
     yearOfDeath: 1941,
-  },
+  }, 
 ];
 
 const getAge = (birth, death) => {
